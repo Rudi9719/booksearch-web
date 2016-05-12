@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+#!/usr/bin/env python
+
+# Paging
+PAGE_SIZE = 15
+
+# Cache
+CACHE_EXPIRATION_QUICK = 60
+CACHE_EXPIRATION_SHORT = 60 * 60 * 4
+CACHE_EXPIRATION_MEDIUM = 60 * 60 * 12
+CACHE_EXPIRATION_LONG = 60 * 60 * 24
+CACHE_PAGE_MAX = 10
+
+# User Types
+USER_TYPE_SEEKER = "student"
+USER_TYPE_TALENT = "admin"
+USER_TYPES = [USER_TYPE_SEEKER, USER_TYPE_TALENT]
+
+USER_LOGIN_TYPE_EMAIL = "email"
+USER_LOGIN_TYPE_UNUMBER = "unumber"
+USER_LOGIN_TYPES = [USER_LOGIN_TYPE_EMAIL, USER_LOGIN_TYPE_UNUMBER]
+
+
+# Cookie
+COOKIE_TOKEN = "token"
+COOKIE_TOKEN_MAX_AGE = 60 * 60 * 24 * 30
+COOKIE_SECRET = "7610af83-cc30-53f1-0142-7ac5ac7d69c3"
+
+# Email addresses
+EMAIL_REPLY_TO = "noreply@booksearch.com"
+EMAIL_ADDRESS_FROM = "noreply@booksearch.com"
+
+# Profiles
+CACHE_KEY_PROFILE = "profile-{0}"
+
+# Email
+EMAIL_CHAT_MASKED_EMAIL_ADDRESS = "chat-{0}@{1}.appspotmail.com"
+EMAIL_DELIVERY_METHOD_MANDRILL = "mandrill"
+EMAIL_DELIVERY_METHOD_GAE = "gae"
+
+# Admin
+access_code = "0"

@@ -1,0 +1,133 @@
+div {
+    border-radius: 0px;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.login-button {
+    margin-top: 33vw;
+    position: fixed;
+    margin-left: 30%;
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+#about.card {
+    position: absolute;
+    margin-top: 33px;
+}
+
+.scaleable-wrapper {
+    padding: 20px;
+    resize: both;
+    position: relative;
+    background: #666;
+    height: 400px;
+}
+
+.ui-resizable-se {
+    width: 10px;
+    height: 10px;
+    background: orange;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#suny {
+    width: 15%;
+    margin-top: 35vh;
+    margin-left: 55%;
+    position: fixed;
+}
+
+.logo {
+    width: 15%;
+    margin-top: 35vh;
+    margin-left: 3%;
+    position: fixed;
+}
+
+#title {
+    width: 10%;
+    margin-top: 46vh;
+    margin-left: 20%;
+    position: fixed;
+    font-size: 6vw;
+    color: #fff;
+}
+
+.menu {
+    background: #202024 url('/static/img/black-thread.png') repeat left top;
+    left: -285px;  /* start off behind the scenes */
+    height: 100%;
+    position: fixed;
+    width: 285px;
+}
+
+.menu ul {
+    border-top: 1px solid #636366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #636366;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+.icon-menu {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-menu i {
+    margin-right: 5px;
+}
+
+.shrunken-image {
+    height: 50px;
+    width: 50px;
+    margin-top: 12px;
+}
+
+.shrunken-image:hover {
+    height: 55px;
+    width: 55px;
+}
