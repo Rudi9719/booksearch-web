@@ -86,6 +86,7 @@ def main():
     # API Routes
     
     # Users
+    app.route("/api/users/whoami", method="GET", callback=user_api.whoami)
     app.route("/api/users/register/<unum>", method="POST", callback=user_api.create)
     app.route("/api/users/login", method="POST", callback=user_api.login)
     app.route("/api/users/logout", method="POST", callback=user_api.logout)

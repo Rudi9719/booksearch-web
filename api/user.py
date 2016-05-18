@@ -195,3 +195,10 @@ class UserApi(BaseApi):
 
         # Send email
         self.email_api.send_reset_password_email(user)
+
+    def whoami(self):
+        token = request.headers.get("authorization_token")
+        user = models.Token.get_by_user_key(token)
+        uname = user.username
+        return dict(code=200, message="Successfully authenticated " + uname + ".", valid=True)
+
