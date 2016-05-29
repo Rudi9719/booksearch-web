@@ -38,7 +38,7 @@ color: white;
 </div>
 </header>
 <div class="mdl-layout__drawer">
-<span class="mdl-layout-title">Title</span>
+<span class="mdl-layout-title">BookSearch</span>
 <nav class="mdl-navigation">
 <a class="mdl-navigation__link" href="">link</a>
 <a class="mdl-navigation__link" href="">link</a>
