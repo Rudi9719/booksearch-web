@@ -32,7 +32,7 @@ color: white;
 <nav class="mdl-navigation">
 <a class="mdl-navigation__link" href="/login">Login</a>
 <a class="mdl-navigation__link" href="/about">About Us</a>
-<a class="mdl-navigation__link" href="">Link</a>
+<a class="mdl-navigation__link" href="/discover">Listings</a>
 <a class="mdl-navigation__link" href="">Link</a>
 </nav>
 </div>
