@@ -30,8 +30,8 @@ color: white;
 <div class="mdl-layout-spacer"></div>
 <!-- Navigation -->
 <nav class="mdl-navigation">
-<a class="mdl-navigation__link" href="">Link</a>
-<a class="mdl-navigation__link" href="">Link</a>
+<a class="mdl-navigation__link" href="/login">Login</a>
+<a class="mdl-navigation__link" href="/about">About Us</a>
 <a class="mdl-navigation__link" href="">Link</a>
 <a class="mdl-navigation__link" href="">Link</a>
 </nav>
@@ -40,8 +40,8 @@ color: white;
 <div class="mdl-layout__drawer">
 <span class="mdl-layout-title">Title</span>
 <nav class="mdl-navigation">
-<a class="mdl-navigation__link" href="/login">Login</a>
-<a class="mdl-navigation__link" href="/about">About Us</a>
+<a class="mdl-navigation__link" href="">link</a>
+<a class="mdl-navigation__link" href="">link</a>
 <a class="mdl-navigation__link" href="">Link</a>
 <a class="mdl-navigation__link" href="">Link</a>
 </nav>
